@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+.Hero-header {
+    /* background: url("https://images.news18.com/ibnlive/uploads/2016/08/486380038.jpg?impolicy=website&width=510&height=356"); */
+    background: url("https://image.shutterstock.com/image-vector/seamless-background-made-paisley-vivid-260nw-125490848.jpg");
+    height: 200px;
+    background-size: cover;
+    text-shadow: 0 0 2px white;
+    margin-bottom: 20px;
+}
+
+.Hero-header h1 {
+    padding: 18px;
+    text-shadow: -5px 2px 5px white;
+}
+
+.section-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px 10px;
+    gap: 70px;
+}
+
+.sub-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 300px; */
+}
+
+ #tiger {
+    background: url("images/tiger.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 30px;
+
+}
+
+#tiger:hover {
+    background: url("images/bengal-tiger.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+}
+
+#temple {
+    background: url("images/madurai-india.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 30px;
+
+}
+#temple:hover {
+    background: url("images/amritsar-india.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+}
+
+#trek {
+    background: url("images/india-hampta.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 30px;
+
+}
+
+#trek:hover {
+    background: url("images/india-leh-markha.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+}
+
+.Your-guide {
+
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    /* background-color: #FF595E; */
+    margin-top: 45px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px grey;
+    background: linear-gradient(146deg,#38b000, #ccff33);
+
+}
+#guide {
+    height: 100%;
+    width: 28%;
+    margin: 20px;
+    border: 2px solid darkgrey;
+}
+
+@media screen and (max-width: 800px){
+    .section-lists {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 10px;
+    }  
+    .Your-guide {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub-flex p {
+        margin: 0 4rem;
+    }
+}
+
+@media screen  and (max-width:500px){
+    /* .Hero-header {
+        font-size: small;
+    } */
+    body {
+        font-size: small;
+    }
+    .sub-flex {
+        margin: 1rem 4rem;
+    }
+}
